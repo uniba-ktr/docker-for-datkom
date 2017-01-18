@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Secret-Area"
+AuthUserFile /var/www/safe/.htusers
+Require user DatKom
+

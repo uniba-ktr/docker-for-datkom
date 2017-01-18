@@ -1,0 +1,7 @@
+AuthType Digest
+AuthName "More secure"
+AuthUserFile /var/www/safe2/.htdigest
+Require user DatKom
+
+
+
