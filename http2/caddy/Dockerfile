@@ -3,7 +3,7 @@ MAINTAINER Marcel Grossmann <whatever4711@gmail.com>
 
 ENV arch amd64
 ENV url "https://caddyserver.com/download/build?"
-ENV params "&features=realip"
+ENV params "&features=ratelimit%2Crealip"
 RUN apk add --update --no-cache openssh-client curl git tar
 
 RUN mkdir /caddysrc && CADDYARCH=$(echo "${arch}" | sed -e "s/armhf/arm/g") && \
