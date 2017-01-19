@@ -1,7 +1,7 @@
 # Starting
 
 ```
-docker run -d -p 80:80 -p 443:443 --name authentication unibaktr/authentication
+docker run -d -p 80:80 -p 443:443 --name authentication unibaktr/datkom-authentication
 ```
 
 # Stopping and Removing
