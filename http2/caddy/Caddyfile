@@ -1,0 +1,8 @@
+0.0.0.0:80 0.0.0.0:443 {
+  tls /etc/certs/datkom.crt /etc/certs/datkom.key
+  gzip
+
+  proxy / blog:2368 {
+    transparent
+  }
+}

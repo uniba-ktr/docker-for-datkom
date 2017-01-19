@@ -1,0 +1,39 @@
+version: '2'
+
+networks:
+  frontend:
+    driver: bridge
+  backend:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.7.0/25
+
+services:
+  blog:
+    build:
+      context: ./ghost
+      dockerfile: Dockerfile
+    image: unibaktr/datkom-ghost
+#    volumes:
+#      - ./content:/var/lib/ghost/
+    networks:
+      backend:
+        ipv4_address: 192.168.7.3
+
+  proxy:
+    build:
+      context: ./caddy
+      dockerfile: Dockerfile
+    image: unibaktr/datkom-caddy
+#    volumes:
+#      - ./Caddyfile:/etc/Caddyfile
+#      - ./certs:/etc/certs
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      backend:
+        ipv4_address: 192.168.7.2
+      frontend:
