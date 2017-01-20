@@ -1,0 +1,26 @@
+html, body {margin: 0; padding: 0; text-align: center;}
+.centered {margin: 0 auto; width: 80%;}
+.btn, .btn:link, .btn:visited {
+    text-decoration: none;
+    color: #222;
+    padding: .75em .75em;
+    font-family: avenir, helvetica, arial, sans-serif;
+    border: 1px solid;
+    border-radius: .3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .13em;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+}
+
+.mrs { margin-left: 2em;
+  margin-top: 1ex;
+  margin-bottom: 1ex;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div {
+    display: block;
+}
