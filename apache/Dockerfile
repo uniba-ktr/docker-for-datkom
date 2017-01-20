@@ -6,6 +6,8 @@ RUN apk add --update --no-cache apache2 apache2-ssl apache2-http2 && \
     mkdir -p /var/www /run/apache2 && \
     sed -i -e 's|#LoadModule rewrite_module modules/mod_rewrite.so|LoadModule rewrite_module modules/mod_rewrite.so|g' \
         -e 's|#LoadModule auth_digest_module modules/mod_auth_digest.so|LoadModule auth_digest_module modules/mod_auth_digest.so|g' \
+        -e 's|#LoadModule expires_module modules/mod_expires.so|LoadModule expires_module modules/mod_expires.so|g' \
+        -e 's|#LoadModule deflate_module modules/mod_deflate.so|LoadModule deflate_module modules/mod_deflate.so|g' \
         /etc/apache2/httpd.conf
 
 COPY site /var/www
