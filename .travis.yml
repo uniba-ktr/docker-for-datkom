@@ -17,6 +17,6 @@ script:
 after_success:
 - docker login -u $DOCKER_USER -p $DOCKER_PASS
 - export REPO=unibaktr/datkom-apache
-- export TAG=`if ["$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo TRAVIS_BRANCH ; fi`
+- export TAG=`if ["$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH ; fi`
 - docker build -f ./apache/Dockerfile -t $REPO:$TAG ./apache
 - docker push $REPO
