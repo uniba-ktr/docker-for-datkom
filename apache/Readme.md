@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/uniba-ktr/docker-for-datkom.svg?branch=master)](https://travis-ci.org/uniba-ktr/docker-for-datkom)
+
 # Starting
 
 ```
