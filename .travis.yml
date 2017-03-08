@@ -12,3 +12,4 @@ after_success:
 - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH ; fi`
 - docker build -f ./apache/Dockerfile -t $REPO:$TAG ./apache
 - docker push $REPO
+- curl -X POST https://hooks.microbadger.com/images/unibaktr/datkom-apache/2JIe2c0gVocS5yczmWFUTxml03Q=
