@@ -1,0 +1,55 @@
+SHA1 Fingerprint=B5:22:E7:96:8C:EF:C0:9F:52:B3:97:59:DF:70:30:BD:8A:9F:7E:71
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 14449301999891153769 (0xc8863b9cfbda8369)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=DE, ST=BY, L=Bamberg, O=UnversityOfBamberg, OU=ComputerNetworksGroup, CN=localhost
+        Validity
+            Not Before: Jan 30 08:57:42 2018 GMT
+            Not After : Jan 30 08:57:42 2019 GMT
+        Subject: C=DE, ST=BY, L=Bamberg, O=UnversityOfBamberg, OU=ComputerNetworksGroup, CN=localhost
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:d3:de:46:22:87:3e:e8:93:b4:31:6e:c0:69:2f:
+                    cc:9f:c5:26:9f:a9:32:4e:c4:8b:6d:e1:dd:ac:1d:
+                    2a:78:04:cb:d7:13:34:73:5c:e8:f7:c8:7e:03:06:
+                    0d:d3:08:f2:16:b2:5e:6f:54:88:52:eb:aa:5a:a7:
+                    b2:f8:75:a7:64:3c:4b:6a:1d:ee:53:b8:4c:09:7d:
+                    40:8a:1f:1f:91:23:e3:64:ae:a1:78:89:7f:e9:7f:
+                    a0:6e:17:08:51:1f:a2:b4:da:30:06:93:e8:64:3f:
+                    95:5c:65:e3:1f:8c:b0:dd:41:ef:1f:9c:af:c9:12:
+                    6c:0e:a5:c5:ab:78:c2:48:04:78:da:ae:66:7b:52:
+                    44:4f:d0:32:94:3c:d7:82:1e:d3:c1:8b:01:08:03:
+                    57:cb:7e:c6:d9:38:b7:f4:f5:ec:77:99:a6:12:fe:
+                    4e:b1:02:58:44:67:ce:3e:a7:8f:fb:6a:0b:45:10:
+                    2e:85:06:4c:9c:ea:ec:49:62:24:00:f3:48:44:cb:
+                    0e:de:d1:ec:1a:df:c3:93:96:d9:4c:55:02:a9:fa:
+                    d9:04:ad:04:50:e1:00:d0:89:51:20:a2:57:b7:b2:
+                    4f:f2:e7:6b:68:3a:f3:d7:e5:bd:51:8d:ff:47:67:
+                    21:31:95:43:e2:16:68:1e:cc:9b:96:13:b9:62:d5:
+                    98:49
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Agreement
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+    Signature Algorithm: sha256WithRSAEncryption
+         b2:d1:0a:93:c9:b8:10:44:28:95:68:cb:7f:fb:75:c4:58:8b:
+         78:bb:00:3a:a2:0e:8e:27:54:0d:5e:ed:da:49:e2:7e:2c:f3:
+         ba:f7:fd:c6:9e:1e:58:93:1a:22:62:38:fb:d9:1d:dd:3b:53:
+         e2:4e:52:89:8a:1e:9b:dd:e3:97:f8:ad:26:f3:34:a0:93:6f:
+         1c:8c:1f:32:44:51:2e:9c:67:bd:b9:64:ab:ec:b4:1e:19:da:
+         71:bf:32:31:f9:3e:a6:63:1f:37:19:13:50:e2:53:19:57:0d:
+         86:79:d8:ab:5a:b2:d8:32:84:e2:e1:1d:74:f0:b2:54:67:6a:
+         09:54:02:1d:d9:15:77:6a:18:91:0c:17:52:a0:d5:73:3b:1e:
+         82:8c:f5:b3:17:08:ea:f2:81:71:d5:55:44:a1:d9:3b:67:ef:
+         16:c6:f8:f9:bd:11:ae:05:eb:1a:76:d1:2a:5a:5d:14:e6:4e:
+         ad:49:19:b2:d9:7a:9b:1f:c0:c0:3d:0c:c0:f5:e8:09:7f:5e:
+         9e:f0:92:a8:4f:33:3a:ca:20:c3:fe:90:ae:d6:02:b7:80:03:
+         3d:43:01:ec:1e:91:13:3c:44:b5:1d:c5:c2:f5:0d:4c:0b:0c:
+         8f:25:92:e9:87:90:63:a0:ab:cc:be:cf:bc:56:e6:b1:d4:6d:
+         e5:23:15:fc
