@@ -14,3 +14,9 @@ CN = localhost
 [v3_req]
 keyUsage = critical, digitalSignature, keyAgreement
 extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = localhost.localdomain
+DNS.2 = 127.0.0.1
+DNS.3 = ::1
+DNS.4 = fe80::1
